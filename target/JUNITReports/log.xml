@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="124.825">
+    <testcase classname="Testing Entrata Website Functionality" name="Verify Home Page Title" time="22.255">
+        <system-out><![CDATA[Given User is on the Entrata website........................................passed
+When User navigates to the home page........................................passed
+Then Home Page Title should be Entrata......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Entrata Website Functionality" name="Check the functionality of Entrata" time="30.029">
+        <system-out><![CDATA[Given user is on the home page..............................................passed
+When user goes to products option...........................................passed
+And click on the Property Management........................................passed
+Then navigated sucessfully..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Entrata Website Functionality" name="Check the functinality of Learn More" time="39.392">
+        <system-out><![CDATA[Given user is on the home page of entrata...................................passed
+When scrolled down..........................................................passed
+And click on the learn more.................................................passed
+Then sucessfully navigated..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Entrata Website Functionality" name="Check the functinality of Learn More 2" time="32.913">
+        <system-out><![CDATA[Given user is on home page of entrata.......................................passed
+When click on the resources.................................................passed
+And click on the read more..................................................passed
+And click on the get the guide..............................................passed
+Then sucessfully navigated..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
